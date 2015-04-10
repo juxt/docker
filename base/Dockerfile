@@ -8,7 +8,7 @@ RUN pacman --sync --noconfirm --refresh --sysupgrade && \
     pacman --sync --noconfirm \
            git \
            jdk8-openjdk \
-           systemd \
+           openssh \
            which \
            && \
     pacman --sync --noconfirm --clean --clean
