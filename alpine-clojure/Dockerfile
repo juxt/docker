@@ -1,6 +1,6 @@
 # Based on the offical clojure image by Paul Lam.
 
-FROM juxt/alpine-oracle-jdk:8
+FROM juxt/alpine-oracle-jdk:9
 
 ENV LEIN_ROOT 1
 
