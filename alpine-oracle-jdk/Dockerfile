@@ -2,10 +2,10 @@
 
 FROM alpine:3.1
 
-ENV JAVA_VERSION 8 \
-    JAVA_UPDATE 45 \
-    JAVA_BUILD 14 \
-    JAVA_HOME /usr/lib/jvm/default-jvm
+ENV JAVA_VERSION=8 \
+    JAVA_UPDATE=45 \
+    JAVA_BUILD=14 \
+    JAVA_HOME=/usr/lib/jvm/default-jvm
 
 RUN export JAVA_DOWNLOAD=jdk-${JAVA_VERSION}u${JAVA_UPDATE}-linux-x64.tar.gz && \
     apk add --update wget ca-certificates && \
